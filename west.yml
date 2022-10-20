@@ -1,0 +1,26 @@
+# Copyright (c) 2021 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+manifest:
+  self:
+    path: zephyr-robotics-workspace
+
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+
+    - name: ysoh
+      url-base: https://github.com/ys-oh
+
+  projects:
+    - name: zephyr
+      remote: zephyrproject-rtos
+      revision: main
+      import: true
+
+    - name: jsmn-helper
+      remote: ysoh
+      revision: 236257b68837fc0d22a55b2da79e841c303d737e
+      path: modules/data/jsmn-helper
+      groups:
+        - data
