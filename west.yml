@@ -20,7 +20,12 @@ manifest:
 
     - name: jsmn-helper
       remote: ysoh
-      revision: 236257b68837fc0d22a55b2da79e841c303d737e
+      revision: c624c43f30b18be2fdcc60d201b3c16d1b02b3e5 
       path: modules/data/jsmn-helper
       groups:
         - data
+
+    - name: libev
+      remote: ysoh
+      revision: 02b955d98bf686c08baf7623edeac79333c1d188
+      path: modules/libev
