@@ -1,3 +1,3 @@
-[submodule "board/arm/portenta_h7"]
-	path = board/arm/portenta_h7
+[submodule "boards/arm/portenta_h7"]
+	path = boards/arm/portenta_h7
 	url = ../zephyr_portenta_h7
